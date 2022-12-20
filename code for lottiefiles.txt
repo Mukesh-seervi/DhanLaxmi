@@ -1,0 +1,32 @@
+build.gradle(Module.dlm.app)
+
+---  implementation 'com.airbnb.android:lottie:3.4.0'
+
+=========================
+
+
+create directory in res
+
+1. right click on res
+2. New -> Android Resource Directory
+3. Resource type -> raw and save
+
+
+==============
+
+copy json file and paste in new raw directory
+
+
+============
+
+xml code
+
+<com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        app:lottie_rawRes="@raw/blob"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="300dp"

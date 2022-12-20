@@ -1,0 +1,22 @@
+For custom button
+
+1. res -> drawable right click and create New -> Drawable Resource File
+2. give name abs button1 and save
+
+code -- 
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+    <solid android:color="#80ccff"/>
+    <corners android:radius="15dp"/>
+
+</shape>
+
+
+
+Go to main xml file 
+on the button code paste this line
+
+
+android:background="@drawable/button1"
